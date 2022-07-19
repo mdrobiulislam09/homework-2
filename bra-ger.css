@@ -1,0 +1,79 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 60px;
+}
+/*******
+section-1 
+*******/
+.flex-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.title{
+    width: 50%;
+    padding: 20px 50px 0 80px;  
+}
+.title-header{
+    font-size: 50px;
+}
+.photo{
+    width: 100%;
+}
+.fa-angle-right{
+    padding-left: 10px;
+}
+.live{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/* section-2 */
+
+.flex-2{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}
+.flex-master{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.manubar{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 11px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}
+.border-link a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid slategray;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.border-link{
+    margin-top: 15px;
+}
+.box{
+    background-color: azure;
+    border-radius: 10px;
+}
