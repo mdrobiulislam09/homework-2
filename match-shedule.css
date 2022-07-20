@@ -106,3 +106,32 @@ section-1
     font-size: smaller;
     margin: 20px;
 }
+.social-icon{
+    margin-top: 20px;
+}
+/*****************
+media quary for mibile
+**********************/
+
+@media screen and (max-width: 576px){
+    .flex-section{
+       flex-direction: column;
+    }
+    .flex-master{
+        flex-direction: column;
+    }
+    .grid-section{
+        grid-template-columns: repeat(1,auto);
+    }
+    .footer-link{
+        display: block;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .flex-master{
+        flex-direction: column;
+    }
+    .grid-section{
+        grid-template-columns: repeat(2,auto);
+    }
+}
