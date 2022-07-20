@@ -85,6 +85,15 @@ section-1
     background-color: azure;
     border-radius: 10px;
 }
+.ww{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time-notification{
+    display: block;
+    padding-right: 100px;
+}
 .view-all{
     text-align: center;
     margin: 50px 0;
