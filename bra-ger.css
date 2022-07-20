@@ -85,6 +85,18 @@ section-1
     background-color: azure;
     border-radius: 10px;
 }
+.view-all{
+    text-align: center;
+    margin: 50px 0;
+    visibility: hidden;
+}
+.view-link{
+    background-color: orangered;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
 /* footer */
 .footer-section{
     background-color: black;
@@ -137,5 +149,8 @@ media quary for mibile
     }
     .grid-section{
         grid-template-columns: repeat(2,auto);
+    }
+    .view-all{
+        visibility: visible;
     }
 }
