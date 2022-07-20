@@ -85,14 +85,14 @@ section-1
     background-color: azure;
     border-radius: 10px;
 }
-.ww{
+.time-coment{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .time-notification{
     display: block;
-    padding-right: 100px;
+    padding-right: 90px;
 }
 .view-all{
     text-align: center;
