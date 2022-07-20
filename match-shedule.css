@@ -70,21 +70,17 @@ section-1
     color: azure;
     background-color: red;
 }
-.border-link a{
-    color: black;
-    text-decoration: none;
-    border: 1px solid slategray;
-    padding: 2px 6px;
-    border-radius: 5px;
-    font-size: 10px;
-}
-.border-link{
-    margin-top: 15px;
-}
 .box{
     background-color: azure;
     border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
 }
+.box-flex{
+    display: flex;
+    gap: 20px;
+}
+
 /* footer */
 .footer-section{
     background-color: black;
@@ -109,5 +105,4 @@ section-1
     text-decoration: none;
     font-size: smaller;
     margin: 20px;
-    
 }
