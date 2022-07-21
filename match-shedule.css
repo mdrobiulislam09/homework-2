@@ -85,8 +85,19 @@ section-1
     display: flex;
     gap: 20px;
 }
+.view-all{
+    text-align: center;
+    margin: 50px 0;
+    visibility: hidden;
+}
+.view-link{
+    background-color: orangered;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
 
-/* footer */
+/**** footer ****/
 .footer-section{
     background-color: black;
 }
@@ -116,7 +127,7 @@ section-1
 }
 /*****************
 media quary for mibile
-**********************/
+********************/
 
 @media screen and (max-width: 576px){
     .flex-section{
@@ -132,11 +143,17 @@ media quary for mibile
         display: block;
     }
 }
+/*****************
+media quary for tab
+ ******************/
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .flex-master{
         flex-direction: column;
     }
     .grid-section{
         grid-template-columns: repeat(2,auto);
+    }
+    .view-all{
+        visibility: visible;
     }
 }
