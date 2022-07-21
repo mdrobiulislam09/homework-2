@@ -36,6 +36,11 @@ section-1
     background-color: red;
     padding: 10px 30px;
     border-radius: 5px;
+    transition: padding 1s ;
+}
+.live:hover{
+    background-color: green;
+    padding: 15px 38px;
 }
 /* section-2 */
 
